@@ -17,7 +17,41 @@
         <a href="/Portfolio.html">Portfolio</a>
         </div>
     </div>
-     
-   
+    <div id="formulario">
+        <form action="form" >
+            <br><label for="nombre">Nombre:</label>
+            <br><input type="text" name="nombre" id="nombre" >
+            
+            <br><label for="email">Email:</label>
+            <br><input type="email" name="email" id="email" >
+            
+            <br><label for="telefono">Teléfono:</label>
+            <br><input type="tel" name="telefono" id="telefono">
+            
+            <br><label for="mensaje">Comentario o mensaje:</label>
+            <br><textarea name="mensaje" id="mensaje" ></textarea>
+            
+            <br><label for="motivo">Motivo del contacto:</label>
+            <br><select name="motivo" id="motivo">
+                <br><option value="">Seleccionar motivo</option>
+                <br><option value="profesional">Profesional</option>
+                <br><option value="personal">Personal</option>
+                <br><option value="publicidad">Publicidad</option>
+                <br><option value="otros">Otros</option>
+            </select>
+            
+           <br><label>Pregunta: ¿Quieres recibir respuesta?</label>
+           <br><label><input type="radio" name="respuesta" value="si"> Sí</label>
+           <br><label><input type="radio" name="respuesta" value="no"> No</label>
+            
+           <br><label><input type="checkbox" name="terminos" value="aceptado" required> Acepto los términos y condiciones</label>
+            
+           <br><button type="submit">Enviar</button>
+        </form>
+        
+    </div>
+    
+  
+    
 </body>
 </html>
